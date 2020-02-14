@@ -464,3 +464,28 @@ textarea {
 .is-complete {
   text-decoration: line-through;
 }
+
+.header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.form {
+  display: flex;
+}
+
+.form input[type="text"] {
+  flex: 10;
+  padding: 15px;
+}
+
+.form input[type="submit"] {
+  flex: 2;
+}
